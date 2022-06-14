@@ -1,0 +1,575 @@
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+  .navbar ul li a {
+    font-size: 1.3rem !important;
+  }
+
+  .header .small-circle {
+    top: -110px !important;
+    left: -110px !important;
+    width: 280px !important;
+    height: 280px !important;
+  }
+
+  .header .header-content {
+    margin-top: 80px !important;
+  }
+
+  .header-content .big-circle {
+    width: 430px !important;
+    height: 430px !important;
+  }
+
+  .big-circle .fitness-female {
+    width: 460px !important;
+    height: 460px !important;
+  }
+
+  .header-caption h1 {
+    font-size: 4rem !important;
+  }
+
+  .header-caption p {
+    font-size: 1.1rem !important;
+  }
+
+  .products-container .product {
+    width: 400px !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+  }
+
+  .toUp {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .toUp a {
+    font-size: 2.5rem !important;
+  }
+
+  .header .navbar {
+    position: absolute !important;
+    top: 22px !important;
+    left: 10px !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    padding: 0px !important;
+  }
+
+  .navbar ul li a {
+    font-size: 1.2rem !important;
+  }
+
+  .header .header-content {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .header .header-content {
+    margin-top: 80px !important;
+  }
+
+  .header-content .big-circle {
+    width: 420px !important;
+    height: 420px !important;
+  }
+
+  .big-circle .fitness-female {
+    width: 450px !important;
+    height: 450px !important;
+  }
+
+  .header-content .header-caption {
+    width: 50% !important;
+  }
+
+  .header-caption h1 {
+    font-size: 3rem !important;
+  }
+
+  .header-caption p {
+    font-size: 1rem !important;
+  }
+
+  .header-caption .login-button {
+    width: 140px !important;
+    height: 45px !important;
+  }
+
+  .login-button .login-icon {
+    font-size: 1rem !important;
+  }
+
+  .login-button button {
+    font-size: 1.6em !important;
+  }
+
+  .coach-container .coach-header h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .coach .coach-img-container {
+    width: 50% !important;
+    height: 200px !important;
+  }
+
+  .coach:nth-child(2) .coach-img-container .coach-img {
+    width: 500px !important;
+    top: 53% !important;
+  }
+
+  .coach:nth-child(3) .coach-img-container .coach-img {
+    width: 350px !important;
+  }
+
+  .coach:nth-child(4) .coach-img-container .coach-img {
+    width: 340px !important;
+    top: 26% !important;
+  }
+
+  .coach .coach-caption {
+    width: 60% !important;
+  }
+
+  .coach-caption h2 {
+    font-size: 2.2rem !important;
+  }
+
+  .coach-caption p {
+    font-size: 0.8rem !important;
+  }
+
+  .products .products-container {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .products-container .product {
+    width: calc(calc(100% / 2) - 40px) !important;
+    margin: 40px 20px !important;
+    height: 380px!important;
+  }
+
+  
+.product img {
+  width: 180px!important;
+  height: 180px!important;
+}
+
+  .articles {
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .articles .article-header h1 {
+    font-size: 3.5rem !important;
+  }
+
+  .footer .footer-container {
+    width: 80%!important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .footer-container .footer-social-media {
+    width: 10%!important;
+    height: 80%!important;
+    display: flex!important;
+    flex-direction: column!important;
+    justify-content: space-between!important;
+    align-items: center!important;
+  }
+
+  .footer-about p {
+    font-size: 1.3rem!important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .header .navbar {
+    top: 20px !important;
+    left: 80px !important;
+  }
+
+  .header .small-circle {
+    top: -150px !important;
+    left: -150px !important;
+    width: 340px !important;
+    height: 340px !important;
+  }
+
+  .navbar ul li a {
+    font-size: 1.4rem !important;
+  }
+
+  .header-content .big-circle {
+    width: 470px !important;
+    height: 470px !important;
+  }
+
+  .big-circle .fitness-female {
+    width: 500px !important;
+    height: 500px !important;
+  }
+
+  .header-caption h1 {
+    width: 50%;
+    font-size: 5rem !important;
+  }
+
+  .header-caption p {
+    font-size: 1.1rem !important;
+  }
+
+  .header-caption .login-button {
+    width: 160px !important;
+    height: 45px !important;
+  }
+
+  .login-button .login-icon {
+    font-size: 1.2rem !important;
+  }
+
+  .login-button button {
+    font-size: 1.7em !important;
+  }
+
+  .coach-container .coach-header h1 {
+    font-size: 4rem !important;
+  }
+
+  .coach .coach-img-container {
+    width: 60% !important;
+    height: 200px !important;
+  }
+
+  .coach:nth-child(2) .coach-img-container .coach-img {
+    width: 600px !important;
+    top: 44% !important;
+  }
+
+  .coach:nth-child(3) .coach-img-container .coach-img {
+    width: 400px !important;
+  }
+
+  .coach:nth-child(4) .coach-img-container .coach-img {
+    width: 380px !important;
+    top: 16% !important;
+  }
+
+  .coach .coach-caption {
+    width: 55% !important;
+  }
+
+  .coach-caption h2 {
+    font-size: 2rem !important;
+  }
+
+  .coach-caption p {
+    font-size: 0.8rem !important;
+  }
+
+  .products-container .product {
+    width: 350px !important;
+  }
+
+  .products .products-header h1 {
+    font-size: 4rem !important;
+  }
+
+  .product img {
+    width: 190px !important;
+    height: 190px !important;
+    object-fit: contain;
+    margin-top: -55px !important;
+    margin-bottom: 10px;
+  }
+
+  .price h5 {
+    font-size: 1rem !important;
+  }
+
+  .articles .article-header h1 {
+    font-size: 4rem !important;
+  }
+
+  .articles-container .article {
+    width: 280px !important;
+    height: 300px !important;
+  }
+
+  .article.active {
+    width: 410px !important;
+    height: 440px !important;
+  }
+
+  .article-hero img {
+    width: 230px !important;
+  }
+
+  .article:nth-child(1).active .article-hero img {
+    width: 340px !important;
+  }
+
+  .article:not(.active) .article-hero img {
+    width: 130px !important;
+  }
+
+  .article:nth-child(1):not(.active) .article-hero img {
+    width: 200px !important;
+  }
+
+  .article:nth-child(3):not(.active) .article-hero img {
+    width: 150px !important;
+  }
+
+  .article.active .article-title h2 {
+    font-size: 3rem !important;
+    line-height: 65px !important;
+  }
+
+  .article:nth-child(2).active .article-title h2 {
+    font-size: 3.4rem !important;
+    line-height: 65px !important;
+  }
+
+  .footer-about p {
+    font-size: 1.4rem!important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .header .navbar {
+    top: 20px !important;
+    left: 100px !important;
+  }
+
+  .header .small-circle {
+    top: -170px !important;
+    left: -170px !important;
+    width: 380px !important;
+    height: 380px !important;
+  }
+
+  .navbar ul li a {
+    font-size: 1.5rem !important;
+  }
+
+  .header-content .big-circle {
+    width: 600px !important;
+    height: 600px !important;
+  }
+
+  .header .header-content {
+    margin-top: 120px !important;
+  }
+
+  .big-circle .fitness-female {
+    width: 630px !important;
+    height: 630px !important;
+  }
+
+  .header-caption h1 {
+    width: 50%;
+    line-height: 110px !important;
+    font-size: 6rem !important;
+  }
+
+  .header-caption p {
+    font-size: 1.1rem !important;
+  }
+
+  .header-caption .login-button {
+    width: 180px !important;
+    height: 45px !important;
+  }
+
+  .login-button .login-icon {
+    font-size: 1.3rem !important;
+  }
+
+  .login-button button {
+    font-size: 1.8em !important;
+  }
+
+  .coach-container .coach {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  .coach:nth-child(3) {
+    flex-direction: row-reverse !important;
+  }
+
+  .coach-container .coach-header h1 {
+    font-size: 4rem !important;
+    margin-bottom: 80px !important;
+  }
+
+  .coach .coach-img-container {
+    width: 45% !important;
+    height: 250px !important;
+  }
+
+  .coach:nth-child(2) .coach-img-container .coach-img {
+    width: 680px !important;
+    top: 48% !important;
+  }
+
+  .coach:nth-child(3) .coach-img-container .coach-img {
+    width: 480px !important;
+  }
+
+  .coach:nth-child(4) .coach-img-container .coach-img {
+    width: 440px !important;
+    top: 25% !important;
+  }
+
+  .coach .coach-caption {
+    width: 30% !important;
+    height: 350px !important;
+  }
+
+  .coach-caption h2 {
+    font-size: 2.8rem !important;
+  }
+
+  .coach-caption p {
+    font-size: 0.9rem !important;
+  }
+
+  .coach .register-btn {
+    width: 150px !important;
+    font-size: 1.4rem !important;
+  }
+
+  .articles-container .article {
+    width: 300px !important;
+    height: 340px !important;
+  }
+
+  .article.active {
+    width: 440px !important;
+    height: 480px !important;
+  }
+
+  .article-hero img {
+    width: 260px !important;
+  }
+
+  .article:nth-child(1).active .article-hero img {
+    width: 380px !important;
+  }
+
+  .article:not(.active) .article-hero img {
+    width: 150px !important;
+  }
+
+  .article:nth-child(1):not(.active) .article-hero img {
+    width: 240px !important;
+  }
+
+  .article:nth-child(3):not(.active) .article-hero img {
+    width: 180px !important;
+  }
+
+  .article.active .article-title h2 {
+    font-size: 3.2rem !important;
+    line-height: 65px !important;
+  }
+
+  .article:nth-child(2).active .article-title h2 {
+    font-size: 4rem !important;
+    line-height: 75px !important;
+  }
+
+  .article-title h2 {
+    font-size: 2rem !important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .header .navbar {
+    top: 20px !important;
+    left: 160px !important;
+  }
+
+  .navbar ul li {
+    margin: 0 30px !important;
+  }
+
+  .navbar ul li a {
+    font-size: 1.6rem !important;
+  }
+
+  .header .small-circle {
+    top: -190px !important;
+    left: -190px !important;
+    width: 420px !important;
+    height: 420px !important;
+  }
+
+  .navbar ul li a {
+    font-size: 1.6rem !important;
+  }
+
+  .header-content .big-circle {
+    width: 620px !important;
+    height: 620px !important;
+  }
+
+  .big-circle .fitness-female {
+    width: 670px !important;
+    height: 670px !important;
+  }
+
+  .header-caption h1 {
+    width: 50%;
+    line-height: 120px !important;
+    font-size: 7rem !important;
+  }
+
+  .header-caption p {
+    font-size: 1.2rem !important;
+  }
+
+  .header-caption .login-button {
+    width: 190px !important;
+    height: 45px !important;
+  }
+
+  .login-button .login-icon {
+    font-size: 1.4rem !important;
+  }
+
+  .login-button button {
+    font-size: 1.8em !important;
+  }
+}

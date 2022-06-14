@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "YekanPlus";
+    src: url("../fonts/Yekan\ Boom.eot") format("eot");
+    src: url("../fonts/Yekan\ Boom.otf") format("otf");
+    src: url("../fonts/Yekan\ Boom.ttf") format('ttf');
+    src: url("../fonts/Yekan\ Boom.woff") format("woff");
+    src: url("../fonts/Yekan\ Boom.woff2") format("woff2");
+}
